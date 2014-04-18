@@ -79,7 +79,7 @@
 		this.subviewCreators = _.result( this, "subviewCreators" );
 		
 		this.$( "[data-subview]" ).each( function() {
-			var thisPlaceHolderDiv = $( this );
+			var thisPlaceHolderDiv = jQuery( this );
 			var subviewName = thisPlaceHolderDiv.attr( "data-subview" );
 			var newSubview;
 
